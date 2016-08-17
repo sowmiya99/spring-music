@@ -6,13 +6,4 @@ applications:
   random-route: true
   path: build/libs/spring-music.war
   services:
-    music-db: 
-      label: elephantsql
-      provider: elephantsql
-      version: n/a
-      plan: turtle
-    newrelic:
-      label: newrelic
-      provider: newrelic
-      version: n/a
-      plan: turtle
+    - mysql-dev
