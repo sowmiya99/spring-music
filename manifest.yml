@@ -1,6 +1,6 @@
 ---
 applications:
-- name: srring-music-dev
+- name: spring-music-dev
   memory: 512M
   instances: 1
   random-route: true
