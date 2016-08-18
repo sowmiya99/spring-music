@@ -3,7 +3,7 @@ applications:
 - name: spring-music-dev
   memory: 512M
   instances: 1
-  random-route: true
+  random-route: false
   path: build/libs/spring-music.war
   services:
     - mysql-dev
